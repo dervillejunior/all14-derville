@@ -1,0 +1,70 @@
+
+
+h2{
+    font-size: 30px;
+    color: blue;
+    font-family:monospace ;
+}
+.coluna {
+                    
+    margin-left: 30%;
+    position: relative;
+    margin: auto;
+}
+h1{
+    text-align: center;
+}
+.mapa{
+    margin: auto;
+}
+
+img {
+    width: 50%;
+    float: left;
+}
+body{
+    background-color: aqua;
+}
+main {
+    background-color: aliceblue; /*corpo do mapa */
+    padding: 20px;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 50%;
+    max-width: 320px;
+    min-width: 800px;
+}
+ 
+nav {
+    width: 100%;
+    columns:100px 2;
+   
+}
+
+.rev{
+    columns:  100px 3;
+    width:  100%;
+}
+   
+
+@media(max-widht: 375px){
+nav,
+article,
+.coluna{
+ width: 100%;
+ min-width: 320px; ;
+}
+
+
+}
+
+
+    
+    
+
+
+    
+
+
+

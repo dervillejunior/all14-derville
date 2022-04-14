@@ -1,0 +1,27 @@
+*
+{
+    font-family: cursive;
+}
+
+
+header {
+    background-color: coral;
+    width: 50%;
+    height: 50%;
+  /*box-sizing: border-box;*/
+  margin-left: 25%;
+    
+}
+ body {
+     background-color: blanchedalmond;
+ }
+h1 {
+    font-family: cursive;
+    padding: 1%;
+    margin: 25%;
+    border: solid;
+    text-align: center;
+    margin-top: 0;
+}
+
+

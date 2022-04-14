@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Contato</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+	</head>
+	<body>
+
+		<header>
+			<h2>CONTATO</h2>
+		</header>
+        <section>
+            <article>
+
+				<h2>ENTRE EM CONTATO</h2>
+				<p>Preencha os campos abaixo</p>
+                <style>
+                    h2, p {
+                        font-family: cursive;
+                        color: blue;
+                        background-color:lightsteelblue;
+                        width: 50%;
+                        text-align: center;
+                        margin-left: 20%;
+                    }
+                    </style>
+
+				<form method="post">
+                    <style>
+                        form{
+                            border: 2px;
+                        }
+                    </style>
+               
+					<div>
+						<label for="nome">Nome</label>
+						<input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+					</div>
+
+					<div>
+						<label for="email">E-mail</label>
+						<input type="email" name="email" id="email" placeholder="Digite seu email">
+					</div>
+
+					<div>
+						<label for="mensagem">Mensagem</label>
+						<textarea name="mensagem" id="mensagem" rows="5"></textarea>
+					</div>
+                    <Style>
+                        div{
+                        font-family: cursive;
+                        color: blue; 
+                        text-align: center;
+                	    position: relative;
+						
+					 }
+                        </Style>
+					<div>
+						<p>
+							<label>Você Já Leu Algum de Nossos Livros?</label>
+							<input type="radio" name="linguagens" value="html"> SIM
+							<input type="radio" name="linguagens" value="css"> NÃO
+							
+						</p>
+                    </div>
+
+					<div>
+						<label>Qual o seu Livro Favorito ?</label>
+						<select>
+							<option value="Azul">Milagre da Gratidão</option>
+							<option value="Verde">365 Dias de Gratidão</option>
+							<option value="Vermelho" selected>Minuto da Gratidão</option>
+						</select>
+					</div>
+
+					</form>
+
+				
+				
+			</article>
+
+
+		</section>
+
+		<footer>
+			<p>DERVILLE</p>
+		</footer>
+		
+	</body>
+</html>

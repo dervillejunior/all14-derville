@@ -1,0 +1,197 @@
+/* Importando CSS de Tabelas */
+@import url('tabelas.css');
+
+
+/*
+
+	Herança
+
+	1. Sobreposição / Sobrescreve
+	2. Aplica a último estilo definido
+	3. Prioriza estilo específicas (com seletores mais próximos)
+	4. Se aplica a todas as propriedades
+
+ */
+
+
+html {
+	font-family: sans-serif;
+	color: #161515;
+}
+
+p {
+	color: #3b2e2e;
+}
+
+header p {
+	color:#00008B;
+	font-size: 1.5rem;
+}
+
+
+/* 
+
+	Combinadores 
+	
+	(espaço) seletor descendente 
+	(>) combinador de seletores filhos
+	(+) combinador de elementos irmãos adjacentes / que vem logo na sequencia
+	(~) combinador de elementos irmãos geral / após elemento de referência
+
+	
+*/
+
+
+header h2 {
+	font-weight: 100; /*acrescentei o padding*/
+	padding: 5px;
+}
+
+
+header ~ h2 {
+	font-weight: 600;
+	padding: 10px;
+}
+
+h2 + p {
+	background: #87CEFA;
+	color: #333;
+	padding: 10px;
+}
+
+h2 ~ h5 {
+	font-size: 1.2rem;
+}
+
+div ~ p {
+	text-transform: uppercase;
+	font-size: 1.5rem;
+}/*adicionei o font-size novo */
+
+
+/* Pseudo-classes */
+
+a {
+	color: #555555;
+	text-decoration: none; /* o padrão é underline */
+	font-size: 1.5rem;
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+a:visited {
+	color: #f00;
+}
+
+a:active {
+	color: #red;
+}
+
+a:hover {
+	color: #009;
+	background: #eee;
+}
+
+h2:hover {
+	color: #888;
+}
+
+/* 
+	Tipografia
+*/
+
+html {
+	font-family: sans-serif;
+}
+
+h1, h2, h3 {
+	font-weight: 400;
+	font-family: 'Limelight', cursive;}
+
+h1 {
+	text-decoration: underline;
+}
+	
+p {
+	font-weight:bold;
+	font-size: 1.4rem;
+	font-family: verdana;
+}
+
+ul {
+	padding-left: .5rem;
+	margin-left: .5rem;	
+}
+
+li {
+	letter-spacing: 0.01rem;
+	font-family: sans-serif; 
+	line-height: 1.5;
+}
+
+h3 {
+	/* declaração resumida / completa */
+	font: verdana 1.6rem/2 sans-serif;
+	font-size: 10pt;
+}
+/*1.2rem / "2 tamanho da fonte e altura da linha da fonte"*/
+
+/* 
+
+	Cores
+
+*/
+
+body {
+	/*background: url('../images/pattern.png') center top repeat #EEEEEE;*/
+	
+	background: url('../images/folha.jpg'); /* o ultimo back subscreveu o outro blue */
+}
+
+section {
+	/*background: rgba(255, 255, 255, 0.95);*/
+	background-color: beige ;
+}
+
+p {
+	color: blue;
+	color: #034589;
+	color:rgb(79,79,79);
+}
+
+header,
+footer {
+	background-color: #034589;
+	padding:20px;
+}
+
+footer p {
+	color: rgb(255, 255, 255);
+	text-shadow: 3px 3px 3px greenyellow;
+}
+
+.navegacao {
+	background-color: rgb(100,149,237);
+	padding: 0.5rem;
+}
+
+.navegacao li a {
+	color: white;
+	font-size: 1.4rem;
+}
+
+.navegacao li a:hover {
+	background-color: rgba(0,0,139,.3); /*mememe*/
+	color: #333333;
+}
+.nove {
+	background: rgb(100,149,237);
+}
+.nove h2 {
+
+	font-family: verdana;
+	color: #191970;
+	background:	#00BFFF;
+	text-shadow: 3px 3px 3px green;
+}

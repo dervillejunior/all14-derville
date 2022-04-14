@@ -1,0 +1,79 @@
+
+
+table {
+
+	border: 1px solid;
+	background: #386149;
+	width: 100%;
+	border-collapse: collapse; /* no padrão HTML as bordas são duplas e ai esse termo cola as bordas tornando solida*/
+
+}
+
+table tr:hover {
+	background-color: rgba(0, 0, 185,.5);
+}
+
+table tbody tr:nth-child(even) {  /* nth posso especificaro numero da linha que quero mudar even para linhas pares 
+odd para linhas impares*/  
+}
+
+table tbody tr:hover {
+
+}
+
+table th,
+table td {
+	padding: 30px;
+	font-size: 1.6rem;
+	text-align: right;
+	vertical-align: middle;
+}
+
+table tr td:first-child {  /* 'pseudo classe' defino com isso first.... a primeira coluna da tabela Produto A etc...*/
+	text-align: left;
+	font-weight: bold;
+	border: 1px solid ; /*eu */
+	background-color: #7FFFD4; /* eu eu */
+}
+
+table th {
+	border: 1px solid darkred; /* eu */
+	background-color: #B0E0E6; /* eu no Marcelo modulo 7*/
+}
+table td {
+	border: 1px solid rgb(0, 0, 255) ;}/* propety line me observed*/
+
+table th:hover {
+	
+	background-color:rgba(245,245,220);
+}
+
+
+ /* completei a tabela meio tdtdtd*/
+}
+.table-container {
+	/*padding: 2rem 1rem;*/
+}
+
+.table-container h3 {
+}
+
+.table-container tfoot {  /*div container class mudei cor */
+	background: #FFF0F5;
+}
+
+.table-container tfoot td {
+	font-weight: bold;
+}
+tr#prog {
+	background: #87CEEB; /* eu coloquei teste copiei colei do inspecionar*/
+}
+tr#rowf {
+ 	background-color: #E6E6FA; /*meme id */
+}
+tr#rowf:hover {
+	background-color: red; /* mememe*/
+}
+.table-container td:hover {
+	background: rgb(224,255,255); /*coluna dos produtos coloquei hover com class*/
+}
