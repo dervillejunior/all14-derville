@@ -25,6 +25,7 @@ header {
     padding-bottom: 10px;
     width: 100%;
     margin-bottom: 10px;
+    border-bottom: 10px solid #69c79b;
 
 
 }
@@ -109,7 +110,7 @@ ol li {
 }
 img {
     max-width: 100%;
-    height: auto;
+    height: auto; /* A IMAGEM TEM ESSAS DIRETRIZES PARA NÃO DISTORCER*/
 }
 section article {
     display: block;
@@ -129,6 +130,48 @@ footer p {
     font-size: 13px;
     padding-top: 20px;
 }
+.web {
+    padding-left: 50%;
+}
+
+#tenho-interesse {
+
+    background-color: #e1f8e6;
+}
+.cognito {
+    height: 400px !important;
+    overflow: hidden !important;
+}
+
+/*#tenho-interesse form,
+.cognito.c-med .c-forms-form,
+.cognito.c-med .c-forms-form div {
+        background-color: #ebf7f6 !important;
+    }
+
+#tenho-interesse .cognito .c-forms-form .c-forms-form-title h2,
+#tenho-interesse .cognito label[for], .cognito input[type=radio], .cognito input[type=checkbox] {
+        color: #385874;
+    }
+    
+
+
+
+
+
+    
+
+
+
+
+
+   
+
+
+
+
+
+
 
 
  
