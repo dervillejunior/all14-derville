@@ -7,13 +7,15 @@
     <title>ProntoCloud - Newsletter</title>
     <style>
         * {
-            margin: 0 0 10px;
+            margin: 0 0 10px;    /* 0 T 0 /0 left.right 10 BOTTOM... ESSE RESET FOI FEITA PARA O EMAIL MARKETING OUTLOOK */
+
             padding: 0;
             border: 0 none;
         }
 
         html {
             font-size: 62.5%;
+           
         }
 
         img {
@@ -30,24 +32,25 @@
                 font-size: 1.rem;
             }
         }
-    </style>
+    </style>    
+   
 </head>
-<body style="background-color: #f0f0f0;">
+<body style="background-color: #d3cdcd;">
 
-    <table style="background:#fff; width: 600px; margin: 20px auto; font-family: sans-serif;">
-        <tr>
+    <table style="background:rgb(255, 255, 255); width: 600px; margin: 20px auto; font-family: sans-serif;">
+        <tr> <!-- LOGO-->
             <td style="width: 10px;"></td>
             <td>
                 <a href="#">
                 <img style="border: 0; display: block; margin: 20px 20px 0;" src="https://prontocloud.com.br/wp-content/uploads/2015/05/prontocloud.png" alt="ProntoCloud"></a>
-            </td>
+            </td> <!-- corpo foto + texto-->
             <td style="width: 10px;"></td>
-        </tr>
+        </tr> 
         <tr>
             <td style="width: 10px;"></td>
             <td>
-                <div style="padding: 20px;">
-                    <h1 style="color: #385874;">Aprenda a criar o site de seu negócio</h1>
+               <div style="padding: 20px;">
+                    <h1 style="color: #0658a0;">Aprenda a criar o site de seu negócio</h1>
 
                     <a href="#"><img style="border: 0; display: block; margin-bottom: 10px;"  src="https://prontocloud.com.br/wp-content/uploads/2015/11/manutencao-de-sites-700x300.jpg" alt="Aprenda a criar o site de seu negócio"></a>
 
@@ -62,17 +65,18 @@
                     <p>Também não existe uma receita para o sucesso, mas um conjunto de boas práticas que quando bem executadas potencializam as chances de você construir um site poderoso. E no primeiro passo, é o planejamento.</p>
 
                     <p>Aqui na ProntoCloud estamos preparados para ajudar você a construir seu site desde o planejamento.</p>
-                </div>
+                </div> 
             </td>
             <td style="width: 10px;"></td>
         </tr>
         <tr>
-            <td colspan="3">
+            <td colspan="3"> <!--BOTÃO-->
                 <span style="background-color: #385874; display: block; padding: 10px 5px 7px; margin: 0 auto;  width: 300px; height: 30px; text-align: center;  margin-bottom: 30px; border-radius: 10px; color: #fff;" >
                 <a style="font-size: 20px; text-decoration: none; color: #fff;" href="#">Conheça nossas soluções</a></span>
             </td>
         </tr>
-    </table>
+    </table><!-- 10px parte de cima e de baixo .... 10PX  5PX   7PX >>> 10 CIMA   5 PARA O VALOR DO MEIO P/LATERIAS  7  3º BOTTOM  PARA LATERIAS
+    nas laterias ESTILO CSS INLINE   POR ISSO USAR O HTML ARCAICO PARA E-MAIL MARKETING PARA COISAS IGUAL =-->
     
 </body>
 </html>

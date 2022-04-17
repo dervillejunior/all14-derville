@@ -29,7 +29,7 @@ header {
 
 
 }
-   .container {
+ .container {
        display: block;
        float: left; 
        padding: 20px;
@@ -39,11 +39,11 @@ header {
    
     }
 
-    .main-container {
+   /* .main-container {
         display: block;
         width: 100vw;
         margin: 0 auto;
-    }
+    }*/
     
 
 html {
@@ -69,6 +69,7 @@ section{
     padding: 20px;
     width: 100%;
     font-size: 15px;
+   
 
 }
 section nav {
@@ -142,6 +143,7 @@ footer p {
     height: 400px !important;
     overflow: hidden !important;
 }
+
 
 /*#tenho-interesse form,
 .cognito.c-med .c-forms-form,
